@@ -1,0 +1,207 @@
+                body {
+                    margin: 0% 25%;
+                    padding: 0%;
+                    box-sizing: border-box;
+                    font-family: 'Overpass', sans-serif;
+                }
+                /* utility */
+                
+                .testo-article {
+                    color: grey;
+                    font-size: 15px;
+                }
+                /*header*/
+                
+                .header {
+                    height: 80px;
+                    width: 100%;
+                    background-color: white;
+                }
+                
+                .logo-container {
+                    height: 50px;
+                    width: 115px;
+                    background-color: white;
+                    border-right: solid lightgray 2px;
+                    margin-top: 3px;
+                }
+                
+                .logo {
+                    height: 45px;
+                    width: 100px;
+                    margin: 2px 4px;
+                }
+                
+                .navbar {
+                    font-size: 10px;
+                    color: grey;
+                    margin: 20px;
+                    margin-left: 0px;
+                }
+                
+                .navbar span {
+                    margin-left: 5px;
+                }
+                /* main-section */
+                
+                .cover {
+                    background-color: rgba(128, 128, 128, 0.432);
+                    height: 400px;
+                    width: 100%;
+                }
+                
+                .section {
+                    height: 400px;
+                    width: 100%;
+                    margin-top: 40px;
+                    background-image: url(../img/banner.jpg);
+                    background-size: 120%;
+                    background-position: center;
+                }
+                
+                .testo-section {
+                    color: white;
+                    position: relative;
+                    top: 245px;
+                    font-size: 20px;
+                    margin-left: 30px;
+                }
+                
+                .testo-section2 {
+                    color: white;
+                    position: relative;
+                    top: 230px;
+                    font-size: 15px;
+                    margin-left: 30px;
+                }
+                /* main-section2 */
+                
+                .section2 {
+                    width: 100%;
+                    background-color: white;
+                    margin-top: 20px;
+                }
+                
+                .section2::after {
+                    display: table;
+                    content: "";
+                    clear: both;
+                }
+                
+                .section2-row {
+                    height: 50px;
+                    width: 100%;
+                    background-color: white;
+                    float: left;
+                }
+                /* leadership-testo-row */
+                
+                .leadership {
+                    font-size: 25px;
+                    position: relative;
+                    bottom: 25px;
+                }
+                
+                .testo-leadership {
+                    color: grey;
+                    font-size: 15px;
+                    position: relative;
+                    bottom: 50px;
+                }
+                /* articolo1 */
+                
+                .section2-article1 {
+                    height: 390px;
+                    width: 24%;
+                    float: left;
+                    margin: 20px 0px;
+                    margin-top: 20px;
+                    margin-left: 0px;
+                }
+                
+                .img-article1 {
+                    background-image: url(../img/img-1.jpg);
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                    background-position: center;
+                    width: 100%;
+                    height: 40%;
+                }
+                
+                .cover2 {
+                    background-color: rgba(128, 128, 128, 0.432);
+                    height: 100%;
+                    width: 100%;
+                }
+                
+                .lorem {
+                    font-size: 15px;
+                    margin-top: 18px;
+                }
+                /* articolo2 */
+                
+                .section2-article2 {
+                    height: 390px;
+                    width: 48%;
+                    float: left;
+                    margin-top: 20px;
+                    margin-left: 15px;
+                    margin-right: 15px;
+                }
+                
+                .img-article2 {
+                    width: 100%;
+                    height: 40%;
+                    background-image: url(../img/banner-2.jpg);
+                    background-repeat: no-repeat;
+                    background-size: 140%;
+                    background-position: center;
+                }
+                
+                .cover3 {
+                    background-color: rgba(128, 128, 128, 0.432);
+                    height: 100%;
+                    width: 100%;
+                }
+                /* articolo3 */
+                
+                .section2-article3 {
+                    height: 390px;
+                    width: 24%;
+                    float: left;
+                    margin-top: 20px;
+                    margin-right: 0px;
+                }
+                
+                .img-article3 {
+                    width: 100%;
+                    height: 40%;
+                    background-image: url(../img/img-3.jpg);
+                    background-repeat: no-repeat;
+                    background-size: 140%;
+                    background-position: center;
+                }
+                
+                .cover4 {
+                    background-color: rgba(128, 128, 128, 0.432);
+                    height: 100%;
+                    width: 100%;
+                }
+                /* footer */
+                
+                .footer {
+                    height: 40px;
+                    width: 100%;
+                    background-color: white;
+                    margin-top: 15px;
+                }
+                
+                .testo-footer {
+                    font-size: 10px;
+                    text-align: center;
+                }
+                
+                .heart {
+                    color: red;
+                    font-size: 15px;
+                }
